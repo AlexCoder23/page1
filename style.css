@@ -1,0 +1,57 @@
+html, body { 
+ margin: 0px; 
+ padding:0px; 
+ height:100%;
+ width: 100%;
+ overflow: hidden;
+ background-image:url(background.png);
+ background-size:cover;
+ -webkit-text-size-adjust: 100%;
+ text-align: center;
+ justify-content: center;
+} 
+
+input[type=checkbox] {
+  width: 20px;
+  margin-left: 8px;
+}
+
+.div1 {
+  border: 3px solid dimgray;
+  background-color: white;
+  border-radius: 30px;
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.div2 {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div4 {
+  border: 3px solid dimgray;
+  background-color: white;
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.button {
+  width: 16%;
+  height: 40px;
+  background-color: deepskyblue;
+  border-radius: 18px;
+}
